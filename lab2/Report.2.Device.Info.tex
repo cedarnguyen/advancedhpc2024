@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+
+\title{Device Information Report}
+\author{Nguyen Tu Tung}
+\date{\today}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{GPU Information Report}
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+
+\maketitle
+
+\section*{GPU Device Information}
+
+The following information was obtained during the lab session:
+
+\begin{itemize}
+    \item \textbf{Device Name:} \texttt{b'Tesla T4'}
+    \item \textbf{Multiprocessor Count:} 40
+    \item \textbf{Total CUDA Core Count:} 2560
+    \item \textbf{Total Memory Size:} 14.75 GB
+\end{itemize}
+\section*{GPU Image}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics  
+        \centering
+        \includegraphics[width=0.5\linewidth]{image1.png}
+        \caption{GPU info}
+        \label{fig:GPU info}
+    \vspace{1cm}
+    \includegraphics[width=0.5\linewidth]{image.png}
+        \caption{Tesla T4 GPU}
+        \label{fig:Tesla T4 GPU}
+\end{figure}
+\end{document}
